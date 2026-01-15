@@ -16,8 +16,8 @@ class MainFrame implements ActionListener{
       JLabel col_1[]= new JLabel[10];JLabel col_2[]= new JLabel[10];
       JPanel leader,user_details,user_part,score_part;
       MainFrame(){
-            logo = new ImageIcon("logo.png");
-            play_button = new ImageIcon("play.jpg");
+            logo = new ImageIcon("assets/logo.png");
+            play_button = new ImageIcon("assets/play.jpg");
             try{
                   Class.forName("com.mysql.cj.jdbc.Driver");
                   con = DriverManager.getConnection("jdbc:mysql://localhost:3306/tic_tac_toe","/*user_id*/","/*password*/");
@@ -277,3 +277,4 @@ class MainFrame implements ActionListener{
       }
 
 }
+
