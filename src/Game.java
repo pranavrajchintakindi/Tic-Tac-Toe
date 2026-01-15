@@ -18,13 +18,13 @@ public class Game extends JFrame implements ActionListener{
                         a[i][j]=-1;
                   }
             }
-            icon = new ImageIcon("blank.png");
-            x =new ImageIcon("x.png");
-            o =new ImageIcon("o.png");
-            win =new ImageIcon("win.png");
-            draw =new ImageIcon("draw.png");
-            lose =new ImageIcon("lose.png");
-            logo =new ImageIcon("logo.png");
+            icon = new ImageIcon("assets/blank.png");
+            x =new ImageIcon("assets/x.png");
+            o =new ImageIcon("assets/o.png");
+            win =new ImageIcon("assets/win.png");
+            draw =new ImageIcon("assets/draw.png");
+            lose =new ImageIcon("assets/lose.png");
+            logo =new ImageIcon("assets/logo.png");
             //buttons
             for(i=0;i<=2;i++){
                   for(j=0;j<=2;j++){
@@ -151,3 +151,4 @@ class Checker{
       }
 
 }
+
