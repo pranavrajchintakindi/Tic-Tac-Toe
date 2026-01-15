@@ -1,10 +1,5 @@
 # Tic-Tac-Toe
 A Java Swing based Tic Tac Toe desktop game with GUI and login based gameplay.
-# 🎮 Tic-Tac-Toe (Java Swing + SQL Database)
-
-A desktop-based **Tic Tac Toe game** developed using **Java Swing** with **MySQL database integration**.  
-The project includes a graphical user interface, user login system, and persistent score tracking.
-
 ---
 
 ## 📌 About the Game
