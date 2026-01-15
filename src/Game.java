@@ -149,4 +149,5 @@ class Checker{
             if(dnum>num){a[i][j]=-1;return 2;}
             else{a[i][j]=-1;return -1;}
       }
+
 }
