@@ -75,7 +75,7 @@ END;
 //
 DELIMITER ;
 ```
-##Database Connection Configuration (IMPORTANT)
+## Database Connection Configuration (IMPORTANT)
 
 The database connection details are written in MainFrame.java.
 
