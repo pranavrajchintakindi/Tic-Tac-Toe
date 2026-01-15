@@ -115,6 +115,11 @@ con = DriverManager.getConnection("jdbc:mysql://localhost:3306/tic_tac_toe","/*U
 ## How to Use
 1. When you execute you get this window.
    <br><img width="197" height="91" alt="image" src="https://github.com/user-attachments/assets/d3771cc1-2980-4412-ab07-b3289c30752f" />
+2. Click ok then you should see this in window
+   <br><img width="364" height="293" alt="image" src="https://github.com/user-attachments/assets/405aad96-419f-4d22-8cc7-c49817801b94" />
+3. Create account for creating or login with you username and password
+   <br><img width="443" height="329" alt="image" src="https://github.com/user-attachments/assets/6909d198-148a-4626-85f6-03f850494f2a" />
+4. Finally click play button and enjoy
 
 ## Controls
 1. Mouse Click → Place X or O
