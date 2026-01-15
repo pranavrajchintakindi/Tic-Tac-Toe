@@ -50,6 +50,7 @@ This project demonstrates Java GUI programming and database connectivity using J
 3. Ensure MySQL server is running
 4. Then copy paste below SQL code.
 ---
+```sql
 CREATE DATABASE tic_tac_toe;
 USE tic_tac_toe;
 CREATE TABLE user (
@@ -78,7 +79,7 @@ BEGIN
 END;
 //
 DELIMITER ;
-
+```
 ##Database Connection Configuration (IMPORTANT)
 
 The database connection details are written in MainFrame.java.
