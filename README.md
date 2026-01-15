@@ -114,7 +114,7 @@ con = DriverManager.getConnection("jdbc:mysql://localhost:3306/tic_tac_toe","/*U
 
 ## How to Use
 1. When you execute you get this window.
-   <img width="197" height="91" alt="image" src="https://github.com/user-attachments/assets/d3771cc1-2980-4412-ab07-b3289c30752f" />
+   <br><img width="197" height="91" alt="image" src="https://github.com/user-attachments/assets/d3771cc1-2980-4412-ab07-b3289c30752f" />
 
 ## Controls
 1. Mouse Click → Place X or O
