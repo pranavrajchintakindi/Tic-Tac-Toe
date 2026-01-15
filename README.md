@@ -87,9 +87,9 @@ The database connection details are written in MainFrame.java.
 ✏️ What You Must Change in MainFrame.java
 
 Open MainFrame.java and update the following values according to your MySQL setup:
-
+```java
 con = DriverManager.getConnection("jdbc:mysql://localhost:3306/tic_tac_toe","/*User ID*/","/*password*/");
-
+```
 
 ⚠️ If these values are incorrect:
   Login will not work
@@ -102,16 +102,19 @@ con = DriverManager.getConnection("jdbc:mysql://localhost:3306/tic_tac_toe","/*U
 
 
 ## How to Run the Project
-## How to Run the Project
 
 1. Install **Java JDK (8 or above)** on your system.
 2. Install **MySQL** and make sure the MySQL server is running.
 3. Create the database and tables using the SQL script provided in this project.
 4. Open `MainFrame.java` and update the database username and password according to your MySQL setup.
 5. Compile the project:
+ ```bash
    javac src/Main.java
+```
 6. Run the application:
+ ```bash
   java src.Main
+```
 7. The Tic-Tac-Toe game window will open and you can log in and start playing.
 
 ## Controls
