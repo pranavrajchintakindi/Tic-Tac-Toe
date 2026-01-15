@@ -20,7 +20,7 @@ class MainFrame implements ActionListener{
             play_button = new ImageIcon("play.jpg");
             try{
                   Class.forName("com.mysql.cj.jdbc.Driver");
-                  con = DriverManager.getConnection("jdbc:mysql://localhost:3306/tic_tac_toe","root","root");
+                  con = DriverManager.getConnection("jdbc:mysql://localhost:3306/tic_tac_toe","/*user_id*/","/*password*/");
                   if(con!=null){
                         JOptionPane.showMessageDialog(null,"Game Connected","Connected",JOptionPane.INFORMATION_MESSAGE);
                         loginAccount();
@@ -275,4 +275,5 @@ class MainFrame implements ActionListener{
                   }pstu.setString(1,user);pstu.executeUpdate();
             }catch(Exception ex){System.out.println(ex);}
       }
+
 }
